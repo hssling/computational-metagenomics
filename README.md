@@ -1,6 +1,6 @@
 # National Workshop on Computational Metagenomics
 
-Welcome to the official repository for the **National Workshop on Computational Metagenomics: Methods and Applications**, hosted by **NPTEL+ | IIT Madras** (April 7th - 9th, 2026).
+Welcome to the unofficial repository for the **National Workshop on Computational Metagenomics: Methods and Applications**, hosted by **NPTEL+ | IIT Madras** (April 7th - 9th, 2026).
 
 This repository contains all the instructional materials, pipelines, and statistical analysis workflows developed for the workshop.
 
