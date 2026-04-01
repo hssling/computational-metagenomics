@@ -1,0 +1,31 @@
+{
+  "dir": "D:/Computational Metagenomics/Manuscript_Package_Genomics_Transcriptomics",
+  "title": "Human Genomics and Transcriptomics in Practice: A Computational Roadmap from Sequence Data to Clinical Interpretation",
+  "run": "Human Genomics and Transcriptomics",
+  "keywords": "Human genomics; transcriptomics; variant analysis; RNA sequencing; clinical bioinformatics; differential expression; rare disease; cancer genomics",
+  "abstract": "Human genomics and transcriptomics now underpin rare disease diagnosis, hereditary risk assessment, tumor profiling, therapeutic stratification, and molecular epidemiology. This full-length tutorial review presents a practical computational roadmap from study design to publication-ready interpretation. The review covers assay selection, quality control, alignment, variant calling, annotation, RNA-seq quantification, differential expression, integrative interpretation, reproducibility, and clinical reporting logic.",
+  "figs": ["Genomics and transcriptomics analytical workflow", "Illustrative variant evidence integration map", "Illustrative RNA-seq differential expression output", "Clinical interpretation and reporting pathway"],
+  "sections": [
+    ["1. Introduction", "Human genomics and transcriptomics are mature analytical disciplines, but publication-quality work still depends more on design and interpretive discipline than on software novelty. A strong review in this area should connect sequencing, annotation, statistics, and clinical reasoning into one coherent workflow."],
+    ["2. Study design and assay selection", "The study question determines whether whole-genome sequencing, whole-exome sequencing, targeted sequencing, bulk RNA-seq, total RNA-seq, or long-read approaches are appropriate. Germline studies require ancestry-aware interpretation and segregation logic; somatic studies need purity, copy-number context, and matched normal design where feasible."],
+    ["3. Core genomic preprocessing", "A defensible genomic workflow includes quality assessment, read alignment, duplicate handling when appropriate, calibration or analogous correction, variant calling, filtering, and annotation against declared reference resources. Cancer analyses should clearly distinguish single-nucleotide variants, indels, structural alterations, copy-number changes, and fusions."],
+    ["4. Variant annotation and prioritization", "Annotation is not interpretation. Publication-ready studies separate computational consequence assignment from biological and clinical classification, and explain prioritization using allele frequency, predicted effect, conservation, phenotype match, transcript relevance, and external evidence."],
+    ["5. Transcriptomic quantification and differential expression", "RNA-seq analysis requires quality control, quantification, normalization, exploratory analysis, differential expression, and pathway interpretation. Strong manuscripts report filtering rules, normalization strategy, design formula, hidden-batch handling, and multiple-testing correction, with effect-size interpretation alongside significance."],
+    ["6. Integrative interpretation", "Genomics and transcriptomics are most powerful together when variant evidence is linked to expression change, aberrant splicing, allele-specific expression, pathway activity, or treatment response. Analysts should distinguish corroboration from causation and avoid overclaiming functional validation from a single molecular layer."],
+    ["7. Common analytical failures", "Frequent failures include outdated reference resources, weak ancestry-aware filtering, overuse of in silico prediction scores, unstable volcano-plot storytelling, and clinical overreach from variants of uncertain significance. These issues directly affect translational credibility."],
+    ["8. Translational applications", "These workflows support rare disease diagnosis, hereditary cancer assessment, tumor classification, treatment-response stratification, pharmacogenomics, and biomarker discovery. The strongest studies connect computational outputs back to phenotype, orthogonal evidence, or disease mechanism."],
+    ["9. Conclusion", "The most defensible genomics and transcriptomics studies make every major decision, threshold, and inferential step transparent. That discipline is what turns sequencing output into credible publication-quality evidence."]
+  ],
+  "refs": [
+    "Van der Auwera GA, O'Connor BD. Genomics in the Cloud. O'Reilly Media; 2020.",
+    "DePristo MA, Banks E, Poplin R, et al. A framework for variation discovery and genotyping using next-generation DNA sequencing data. Nat Genet. 2011;43(5):491-498.",
+    "Li H. Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM. arXiv. 2013;1303.3997.",
+    "Dobin A, Davis CA, Schlesinger F, et al. STAR: ultrafast universal RNA-seq aligner. Bioinformatics. 2013;29(1):15-21.",
+    "Love MI, Huber W, Anders S. Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biol. 2014;15(12):550.",
+    "Conesa A, Madrigal P, Tarazona S, et al. A survey of best practices for RNA-seq data analysis. Genome Biol. 2016;17:13.",
+    "Karczewski KJ, Francioli LC, Tiao G, et al. The mutational constraint spectrum quantified from variation in 141,456 humans. Nature. 2020;581(7809):434-443.",
+    "Stark Z, Dolman L, Manolio TA, et al. Integrating genomics into healthcare: a global responsibility. Am J Hum Genet. 2019;104(1):13-20.",
+    "The GTEx Consortium. The GTEx Consortium atlas of genetic regulatory effects across human tissues. Science. 2020;369(6509):1318-1330.",
+    "Koboldt DC. Best practices for variant calling in clinical sequencing. Genome Med. 2020;12:91."
+  ]
+}

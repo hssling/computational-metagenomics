@@ -1,0 +1,30 @@
+---
+title: "Computational Metagenomics and Modern Biomedical Omics"
+subtitle: "A Practical Handbook from 16S Analysis to Spatial and Multiomic Interpretation"
+author: "Dr Siddalingaiah H S"
+date: "April 2026"
+
+# Typography
+mainfont: "Georgia"
+sansfont: "Arial"
+monofont: "Consolas"
+fontsize: 11pt
+linestretch: 1.25
+
+# Layout
+geometry:
+  - top=1in
+  - bottom=1in
+  - left=1in
+  - right=1in
+papersize: a4
+
+# TOC
+toc: true
+toc-depth: 2
+numbersections: true
+
+# Styling
+colorlinks: true
+linkcolor: "blue"
+...

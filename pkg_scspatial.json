@@ -1,0 +1,32 @@
+﻿{
+  "dir": "D:/Computational Metagenomics/Manuscript_Package_SingleCell_Spatial",
+  "title": "Single-Cell and Spatial Omics in Practice: A Computational Roadmap for Cellular and Tissue-Resolved Biology",
+  "run": "Single-Cell and Spatial Omics",
+  "keywords": "Single-cell omics; spatial omics; scRNA-seq; spatial transcriptomics; tissue biology; cell atlas; trajectory analysis; computational pathology",
+  "abstract": "Single-cell and spatial omics have transformed biology by enabling cell-resolved and tissue-resolved analysis of molecular state. This full-length review presents a practical roadmap covering study design, preprocessing, quality filtering, annotation, trajectory inference, spatial analysis, integration, validation, and publication-ready reporting.",
+  "figs": ["Single-cell and spatial omics workflow", "Illustrative cell-state manifold", "Illustrative spatial tissue map", "Integrated single-cell to spatial interpretation framework"],
+  "sections": [
+    ["1. Introduction", "Single-cell and spatial methods move biology beyond population averages toward cell states, neighborhoods, and tissue ecosystems. Their value lies not only in higher resolution, but in connecting molecular state to anatomy, microenvironment, and disease context."],
+    ["2. Technology choice and study design", "Key decisions include whether the study requires dissociated cells, nuclei, intact tissue, targeted markers, transcriptome-wide profiling, chromatin accessibility, or multimodal measurement. Tissue handling, dissociation bias, fixation, throughput, and image compatibility strongly shape downstream analysis."],
+    ["3. Single-cell workflow", "A publication-ready single-cell pipeline includes matrix generation, quality filtering, doublet detection, ambient RNA assessment, normalization, dimensionality reduction, graph construction, clustering, marker-based annotation, and differential state analysis. The rationale for filtering and clustering resolution should be reported explicitly."],
+    ["4. Spatial workflow", "Spatial omics adds image processing, segmentation or spot geometry, coordinate handling, neighborhood analysis, and spatially variable feature detection. Analysts should report image-processing logic and avoid letting visualization alone drive biological claims."],
+    ["5. Integration of single-cell and spatial data", "Single-cell references are often mapped back into spatial coordinates to estimate tissue composition and localize cell states. This is powerful but uncertain; different mapping algorithms and annotation schemes can change the conclusion materially."],
+    ["6. Trajectories and interactions", "Trajectory inference and ligand-receptor analyses can support biological narratives, but they are often inferential rather than directly observed. Manuscripts should explain these limits and avoid presenting inferred communication as proven signaling."],
+    ["7. Common pitfalls", "Frequent errors include overclustering, assigning labels from too few markers, mistaking UMAP geometry for formal distance, ignoring dissociation artifacts, and treating poor-quality spatial spots as microenvironments."],
+    ["8. Translational applications", "These methods are increasingly important in cancer, immunology, developmental biology, neuroscience, and pathology. Their strength lies in relating molecular state to location and context within tissue."],
+    ["9. Conclusion", "Single-cell and spatial omics become publication-competitive when they address focused tissue questions with reproducible preprocessing, careful annotation, and controlled interpretation rather than only generating attractive atlases."]
+  ],
+  "refs": [
+    "Stuart T, Satija R. Integrative single-cell analysis. Nat Rev Genet. 2019;20(5):257-272.",
+    "Luecken MD, Theis FJ. Current best practices in single-cell RNA-seq analysis. Mol Syst Biol. 2019;15(6):e8746.",
+    "Vandereyken K, Sifrim A, Thienpont B, Voet T. Methods and applications for single-cell and spatial multi-omics. Nat Rev Genet. 2023;24(8):494-515.",
+    "Moses L, Pachter L. Museum of spatial transcriptomics. Nat Methods. 2022;19(5):534-546.",
+    "Rao A, Barkley D, Franca GS, Yanai I. Exploring tissue architecture using spatial transcriptomics. Nature. 2021;596(7871):211-220.",
+    "Palla G, Spitzer H, Klein M, et al. Squidpy: a scalable framework for spatial omics analysis. Nat Methods. 2022;19(2):171-178.",
+    "Marx V. Method of the Year: spatially resolved transcriptomics. Nat Methods. 2021;18:9-14.",
+    "Longo SK, Guo MG, Ji AL, Khavari PA. Integrating single-cell and spatial transcriptomics to elucidate intercellular tissue dynamics. Nat Rev Genet. 2021;22(10):627-644.",
+    "Williams CG, Lee HJ, Asatsuma T, et al. An introduction to spatial transcriptomics for biomedical research. Genome Med. 2022;14:68.",
+    "Lähnemann D, Köster J, Szczurek E, et al. Eleven grand challenges in single-cell data science. Genome Biol. 2020;21:31."
+  ]
+}
+

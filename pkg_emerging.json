@@ -1,0 +1,32 @@
+﻿{
+  "dir": "D:/Computational Metagenomics/Manuscript_Package_Emerging_Omics",
+  "title": "Emerging Omics Technologies in Biomedicine: A Computational Review of Spatial Proteomics, Perturb-omics, Epitranscriptomics, Exposomics, and Liquid Biopsy Multiomics",
+  "run": "Emerging Omics Technologies",
+  "keywords": "Spatial proteomics; perturb-omics; epitranscriptomics; exposomics; liquid biopsy; emerging omics; spatial biology; translational bioinformatics",
+  "abstract": "The omics landscape has expanded beyond classical genomic and transcriptomic frameworks into a newer set of rapidly accelerating technologies. This review surveys several emerging domains with growing computational importance: spatial proteomics, perturb-omics, epitranscriptomics, exposomics, and liquid biopsy multiomics. The emphasis is practical, focusing on data structure, analysis goals, maturity, translational potential, and reporting standards.",
+  "figs": ["Landscape of emerging omics technologies", "Illustrative technology maturity matrix", "Illustrative translational readiness plot", "Framework for choosing emerging omics assays"],
+  "sections": [
+    ["1. Introduction", "The term omics now covers a much broader methodological landscape than the classical genome-transcriptome-proteome-metabolome sequence. Several fast-moving domains have recently gained importance because of progress in multiplexed imaging, perturbation readouts, RNA modification profiling, environmental exposure characterization, and minimally invasive clinical sampling."],
+    ["2. Spatial proteomics", "Spatial proteomics has become prominent because it combines protein-level information with tissue architecture. Its computational challenges include image normalization, segmentation, marker harmonization, signal spillover, neighborhood analysis, and integration with pathology context."],
+    ["3. Perturb-omics", "Perturb-omics couples directed perturbation, often CRISPR-based, with high-dimensional readout such as single-cell expression. It is especially attractive because it moves from association to perturbation-informed inference, but guide assignment, perturbation efficiency, and indirect effects must be handled carefully."],
+    ["4. Epitranscriptomics", "Epitranscriptomic assays study RNA modifications such as m6A and related marks. Their computational difficulty lies in distinguishing genuine modification biology from assay-specific bias and from ordinary changes in transcript abundance or isoform structure."],
+    ["5. Exposomics", "Exposomics aims to characterize cumulative environmental and chemical exposures affecting health. It overlaps with metabolomics, adductomics, and systems epidemiology, and is defined by challenging feature annotation, strong batch sensitivity, and complex links to phenotype."],
+    ["6. Liquid biopsy multiomics", "Liquid biopsy multiomics integrates cell-free DNA, cell-free RNA, methylation, fragmentomics, proteins, and other analytes from minimally invasive samples. The analytical challenge is balancing sensitivity and specificity when signal fraction is low and analyte behavior differs across platforms."],
+    ["7. Readiness and fit-for-purpose", "Emerging technologies should be judged by assay maturity, reproducibility, cohort-size demands, software support, and translational realism rather than novelty alone. Not every method is ready for every biomedical question."],
+    ["8. Common computational risks", "Frequent risks include weak benchmarking, unstable preprocessing, immature reference resources, underdeveloped annotation pipelines, and translational overstatement. These issues are common in fast-moving fields and should be addressed explicitly in publication-oriented reviews."],
+    ["9. Conclusion", "Emerging omics methods are expanding what can be measured in biomedicine, but publication-quality work still depends on coherent design, transparent computation, realistic claims, and strong reporting discipline."]
+  ],
+  "refs": [
+    "Method of the Year 2024: spatial proteomics. Nat Methods. 2024;21:2195-2196.",
+    "An update on spatial proteomics. Nat Methods. 2026;23:481.",
+    "Mass spectrometry imaging for spatially resolved multi-omics molecular mapping. npj Imaging. 2024;2:25.",
+    "Combining spatial metabolomics and proteomics profiling of single cells. Nat Rev Immunol. 2024.",
+    "Emerging technologies of single-cell multi-omics. Haematologica. 2024.",
+    "Epitranscriptomics in metabolic disease. Nat Metab. 2023;5:370-384.",
+    "Implementation of multiomic mass spectrometry approaches for the evaluation of human health following environmental exposure. Mol Omics. 2024;20(5):296-321.",
+    "Hasin Y, Seldin M, Lusis A. Multi-omics approaches to disease. Genome Biol. 2017;18:83.",
+    "Vandereyken K, Sifrim A, Thienpont B, Voet T. Methods and applications for single-cell and spatial multi-omics. Nat Rev Genet. 2023;24(8):494-515.",
+    "Rao A, Barkley D, Franca GS, Yanai I. Exploring tissue architecture using spatial transcriptomics. Nature. 2021;596(7871):211-220."
+  ]
+}
+

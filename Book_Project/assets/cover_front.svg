@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="2700" viewBox="0 0 1800 2700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d2b45"/>
+      <stop offset="55%" stop-color="#164b6c"/>
+      <stop offset="100%" stop-color="#f3efe6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1800" height="2700" fill="url(#bg)"/>
+  <rect x="120" y="120" width="1560" height="2460" fill="none" stroke="#f3efe6" stroke-width="6"/>
+  <circle cx="1450" cy="420" r="210" fill="#f08a24" opacity="0.9"/>
+  <circle cx="1320" cy="590" r="120" fill="#f3efe6" opacity="0.2"/>
+  <circle cx="1180" cy="760" r="70" fill="#f08a24" opacity="0.45"/>
+  <path d="M220 1960 C540 1580, 760 1530, 1030 1320 S1490 980, 1600 820" fill="none" stroke="#f3efe6" stroke-width="16" opacity="0.7"/>
+  <path d="M250 2100 C520 1750, 760 1680, 980 1490 S1400 1200, 1550 1110" fill="none" stroke="#f08a24" stroke-width="8" opacity="0.85"/>
+  <text x="220" y="520" font-family="Georgia, Times New Roman, serif" font-size="120" fill="#f3efe6" font-weight="700">Computational</text>
+  <text x="220" y="660" font-family="Georgia, Times New Roman, serif" font-size="120" fill="#f3efe6" font-weight="700">Metagenomics</text>
+  <text x="220" y="800" font-family="Georgia, Times New Roman, serif" font-size="72" fill="#f3efe6" font-weight="500">and Modern Biomedical Omics</text>
+  <text x="220" y="960" font-family="Arial, Helvetica, sans-serif" font-size="44" fill="#f3efe6">A Practical Handbook from 16S Analysis</text>
+  <text x="220" y="1025" font-family="Arial, Helvetica, sans-serif" font-size="44" fill="#f3efe6">to Spatial and Multiomic Interpretation</text>
+  <text x="220" y="2380" font-family="Arial, Helvetica, sans-serif" font-size="52" fill="#f3efe6" letter-spacing="2">DR SIDDALINGAIAH H S</text>
+</svg>

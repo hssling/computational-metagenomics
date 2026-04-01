@@ -1,0 +1,32 @@
+﻿{
+  "dir": "D:/Computational Metagenomics/Manuscript_Package_Umbrella_Review",
+  "title": "From Genomics to Spatiotemporal Omics: An Integrated Computational Roadmap for Modern Biomedical Data Analysis",
+  "run": "Integrated Computational Omics",
+  "keywords": "Genomics; transcriptomics; multiomics; single-cell omics; spatial omics; spatiotemporal omics; biomedical informatics; umbrella review",
+  "abstract": "Biomedical data analysis now spans a continuum from genome-scale sequencing to transcriptomics, multiomics integration, single-cell profiling, spatial analysis, and spatiotemporal tissue modeling. This umbrella review synthesizes the computational logic connecting these domains and presents a unified roadmap for assay choice, analysis structure, integration, interpretation, and transparent reporting.",
+  "figs": ["Continuum from genomics to spatiotemporal omics", "Comparative modality matrix", "Integrated assay-selection decision map", "Shared computational principles across omics domains"],
+  "sections": [
+    ["1. Introduction", "Modern omics is no longer a set of isolated specialties. Genomics, transcriptomics, multiomics, single-cell, spatial, and spatiotemporal methods now form an analytical continuum in which each modality adds a different level of biological resolution and interpretive complexity."],
+    ["2. The resolution hierarchy", "Genomics defines sequence variation, transcriptomics captures expression, multiomics links molecular layers, single-cell methods resolve heterogeneity, spatial methods preserve anatomy, and spatiotemporal methods add change across time. Each increase in resolution brings additional modeling burden and different failure modes."],
+    ["3. Shared design principles", "Across all omics domains the same high-level discipline applies: start with the biological question, select the minimum assay complexity needed, preserve design metadata, define the inferential target clearly, and make preprocessing decisions transparent."],
+    ["4. Data processing across modalities", "Although each assay has modality-specific preprocessing, all rely on explicit reference resources, quality control, filtering logic, normalization or transformation, and careful treatment of metadata before inference. These steps should not be hidden in supplementary methods because they often determine the main story."],
+    ["5. Interpretation and integration", "The field now generates many different types of outputs: variant calls, differential expression lists, latent factors, clusters, spatial neighborhoods, and inferred trajectories. Publication-quality work makes clear what kind of evidence each output represents and what it does not prove."],
+    ["6. Common cross-domain failures", "Frequent problems include weak cohort design, underreported filtering, batch effects, visually persuasive but statistically weak plots, and confusion between association and mechanism. These errors recur because assay innovation often outpaces reporting discipline."],
+    ["7. Clinical and translational outlook", "Omics methods are increasingly linked to diagnosis, prognosis, therapy selection, and disease mechanism. The more clinically ambitious the claim, the more conservative the computational interpretation should be."],
+    ["8. Future directions", "The field is moving toward more integrated, more spatial, and more multimodal assays with closer links to imaging and clinical records. This direction is promising but will require better benchmarks, stronger reproducibility standards, and more realistic treatment of uncertainty."],
+    ["9. Conclusion", "A unified computational roadmap helps researchers avoid modality-specific tunnel vision and choose when added analytical complexity is justified by the biological question."]
+  ],
+  "refs": [
+    "Hasin Y, Seldin M, Lusis A. Multi-omics approaches to disease. Genome Biol. 2017;18:83.",
+    "Stuart T, Satija R. Integrative single-cell analysis. Nat Rev Genet. 2019;20(5):257-272.",
+    "Conesa A, Madrigal P, Tarazona S, et al. A survey of best practices for RNA-seq data analysis. Genome Biol. 2016;17:13.",
+    "Vandereyken K, Sifrim A, Thienpont B, Voet T. Methods and applications for single-cell and spatial multi-omics. Nat Rev Genet. 2023;24(8):494-515.",
+    "Rao A, Barkley D, Franca GS, Yanai I. Exploring tissue architecture using spatial transcriptomics. Nature. 2021;596(7871):211-220.",
+    "Argelaguet R, Arnol D, Bredikhin D, et al. MOFA+: a statistical framework for comprehensive integration of multi-modal single-cell data. Genome Biol. 2020;21:111.",
+    "Spatiotemporal omics for biology and medicine. Cell. 2024.",
+    "Method of the Year 2024: spatial proteomics. Nat Methods. 2024;21:2195-2196.",
+    "Lähnemann D, Köster J, Szczurek E, et al. Eleven grand challenges in single-cell data science. Genome Biol. 2020;21:31.",
+    "Krassowski M, Das V, Sahu SK, Misra BB. State of the field in multi-omics research: from computational needs to data mining and sharing. Front Genet. 2020;11:610798."
+  ]
+}
+

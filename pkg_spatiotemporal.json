@@ -1,0 +1,32 @@
+﻿{
+  "dir": "D:/Computational Metagenomics/Manuscript_Package_Spatiotemporal_Omics",
+  "title": "Spatiotemporal Omics for Biology and Medicine: A Computational Framework for Dynamic Tissue-Resolved Analysis",
+  "run": "Spatiotemporal Omics",
+  "keywords": "Spatiotemporal omics; spatial biology; longitudinal omics; tissue dynamics; developmental trajectories; disease progression; dynamic systems biology",
+  "abstract": "Spatiotemporal omics extends molecular profiling beyond static snapshots by integrating tissue location with change over time. This review presents a computational framework for dynamic tissue-resolved studies, covering design, registration, temporal alignment, trajectory modeling, multimodal integration, uncertainty, and publication-ready reporting.",
+  "figs": ["Spatiotemporal omics analytical framework", "Illustrative temporal trajectory landscape", "Illustrative 4D tissue-state map", "Alignment and inference logic for dynamic spatial studies"],
+  "sections": [
+    ["1. Introduction", "Many important biological questions concern change rather than static state: development, repair, progression, relapse, and treatment response. Spatiotemporal omics addresses these questions by combining molecular state, tissue location, and temporal structure in one analytical framework."],
+    ["2. Study design for dynamic tissues", "The key design question is whether time is observed directly, reconstructed from serial sections, inferred computationally, or integrated across cohorts. Sampling interval, intervention timing, section provenance, and longitudinal metadata determine what temporal claims are defensible."],
+    ["3. Registration and temporal alignment", "Reliable spatiotemporal inference depends on coordinate alignment across sections or timepoints. Registration error can create false gradients or false movement. Studies should describe their reference frame, alignment method, and uncertainty handling explicitly."],
+    ["4. Dynamic modeling strategies", "Spatiotemporal datasets often use trajectory inference, pseudotime, graph methods, tensor approaches, or dynamical models. The manuscript should always clarify whether results reflect observed change or computationally inferred progression."],
+    ["5. Integration with references", "Many analyses depend on single-cell references to identify states and infer transitions. These references add value but also impose assumptions, so robust studies assess whether conclusions change under alternative annotations or reference sets."],
+    ["6. Common inferential errors", "The most common mistakes are treating pseudotime as literal time, ignoring section effects, failing to separate abundance change from rearrangement in space, and overinterpreting spatial gradients without robust alignment."],
+    ["7. Biological applications", "This framework is relevant to embryology, tissue regeneration, neurodevelopment, wound healing, tumor evolution, and therapy response. Its practical strength lies in identifying where and when key transitions occur."],
+    ["8. Reporting standards", "Publication-ready studies should report temporal logic, coordinate systems, registration strategy, modality integration assumptions, and sensitivity analysis for alternative alignments or trajectory settings."],
+    ["9. Conclusion", "Dynamic spatial biology is a promising frontier, but it requires stronger computational discipline than static atlas generation because both spatial and temporal claims can fail if alignment and inference are weak."]
+  ],
+  "refs": [
+    "Rao A, Barkley D, Franca GS, Yanai I. Exploring tissue architecture using spatial transcriptomics. Nature. 2021;596(7871):211-220.",
+    "Palla G, Spitzer H, Klein M, et al. Squidpy: a scalable framework for spatial omics analysis. Nat Methods. 2022;19(2):171-178.",
+    "Vandereyken K, Sifrim A, Thienpont B, Voet T. Methods and applications for single-cell and spatial multi-omics. Nat Rev Genet. 2023;24(8):494-515.",
+    "Longo SK, Guo MG, Ji AL, Khavari PA. Integrating single-cell and spatial transcriptomics to elucidate intercellular tissue dynamics. Nat Rev Genet. 2021;22(10):627-644.",
+    "Marx V. Method of the Year: spatially resolved transcriptomics. Nat Methods. 2021;18:9-14.",
+    "Williams CG, Lee HJ, Asatsuma T, et al. An introduction to spatial transcriptomics for biomedical research. Genome Med. 2022;14:68.",
+    "Enablers and challenges of spatial omics, a melting pot of technologies. Mol Syst Biol. 2022;18:e10571.",
+    "Spatiotemporal omics for biology and medicine. Cell. 2024.",
+    "Spatial omics at the forefront: emerging technologies, analytical innovations, and clinical applications. Cancer Cell. 2025.",
+    "Moses L, Pachter L. Museum of spatial transcriptomics. Nat Methods. 2022;19(5):534-546."
+  ]
+}
+
