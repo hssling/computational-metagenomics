@@ -209,11 +209,14 @@ Sincerely,
     (pkg / "ReadMe_Submission_Guidelines.md").write_text(readme, encoding="utf-8")
     (pkg / "generate_figures.py").write_text(FIG_SCRIPT.format(root=str(pkg), titles=repr(meta["figs"])), encoding="utf-8")
 
-    run(["python", ".\\generate_figures.py"], pkg)
-    run(["pandoc", ".\\Title_Page.md", "-o", ".\\Title_Page.docx"], pkg)
-    run(["pandoc", ".\\Cover_Letter.md", "-o", ".\\Cover_Letter.docx"], pkg)
-    run(["pandoc", ".\\Main_Manuscript.md", "-o", ".\\Main_Manuscript_Reviewed_Final.docx", "--resource-path=.;figures"], pkg)
-    run(["pandoc", ".\\Title_Page.md", ".\\Main_Manuscript.md", "-o", ".\\Complete_Manuscript.docx", "--resource-path=.;figures"], pkg)
+    is_windows = sys.platform == "win32"
+    sep = ";" if is_windows else ":"
+
+    run(["python", "generate_figures.py"], pkg)
+    run(["pandoc", "Title_Page.md", "-o", "Title_Page.docx"], pkg)
+    run(["pandoc", "Cover_Letter.md", "-o", "Cover_Letter.docx"], pkg)
+    run(["pandoc", "Main_Manuscript.md", "-o", "Main_Manuscript_Reviewed_Final.docx", f"--resource-path=.{sep}figures"], pkg)
+    run(["pandoc", "Title_Page.md", "Main_Manuscript.md", "-o", "Complete_Manuscript.docx", f"--resource-path=.{sep}figures"], pkg)
 
 
 if __name__ == "__main__":

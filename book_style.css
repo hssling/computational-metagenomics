@@ -128,17 +128,17 @@ tr:last-child td {
     border-bottom: none;
 }
 
-.alert {
+.alert, .note, .tip, .important, .warning, .caution {
     padding: 1rem 1.5rem;
     margin: 1.5rem 0;
     border-radius: 8px;
     border-left: 4px solid;
 }
 
-.alert-note { background: #e0f2fe; border-color: #0ea5e9; color: #0369a1; }
-.alert-tip { background: #f0fdf4; border-color: #22c55e; color: #15803d; }
-.alert-important { background: #fff7ed; border-color: #f97316; color: #c2410c; }
-.alert-warning { background: #fef2f2; border-color: #ef4444; color: #b91c1c; }
+.alert-note, .note { background: #e0f2fe; border-color: #0ea5e9; color: #0369a1; }
+.alert-tip, .tip { background: #f0fdf4; border-color: #16a34a; color: #15803d; }
+.alert-important, .important { background: #fff7ed; border-color: #f97316; color: #c2410c; }
+.alert-warning, .warning, .caution { background: #fef2f2; border-color: #ef4444; color: #b91c1c; }
 
 @media (max-width: 1024px) {
     body { flex-direction: column; }
